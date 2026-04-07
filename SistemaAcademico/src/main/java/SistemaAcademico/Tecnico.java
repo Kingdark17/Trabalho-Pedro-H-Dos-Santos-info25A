@@ -8,6 +8,42 @@ package SistemaAcademico;
  *
  * @author aluno
  */
-public class Tecnico {
+public class Tecnico extends Cursos {
+private String eixoTecnologico;
+private int chEstagio;
+
+    public String GetEixoTecnologico (){
+        return eixoTecnologico;
+    }
+    public void setEixoTecnologico(String EixoTecnologico){
+        this.eixoTecnologico = eixoTecnologico;
+    }
+    public
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    @Override
+    public void matricula() {
+        throw new UnsupportedOperationException("Not supported yet.");
+
+}
 }
